@@ -1,0 +1,20 @@
+[package]
+name = "aligners"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "aligners"
+path = "src/lib.rs"
+
+[[bin]]
+name = "aligners"
+path = "src/bin/main.rs"
+
+[dependencies]
+bio="1.*"
+lazy_static="*"
+debruijn = "*"
+itertools = "*"
+serde = "*"
