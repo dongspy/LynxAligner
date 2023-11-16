@@ -1,5 +1,5 @@
 use bio::alignment::pairwise::Scoring;
-use aligners::aligner::Aligner;
+use lynxaligner::aligner::Aligner;
 
 fn main() {
     let refs = ["CCCCACGTCCACGTGGGGGGA", "ACGTACGTACGTGGGGG"];
