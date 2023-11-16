@@ -1,10 +1,8 @@
-# Aligners
+# LynxAligner
 
  > Notice: This project is still under active development and not guaranteed to have a stable API.
 
-
-A sequence alignment tool based on the seed-extend model, implemented in Rust, is a powerful concept, particularly due to Rust's performance and safety features. 
-
+LynxAligner, inspired by the agility and precision of a lynx, is a sequence alignment software developed using Rust and the seed-extend algorithm, designed for efficient and accurate bioinformatics data analysis.
 
 The seed-extend model is a popular approach in bioinformatics for sequence alignment, especially useful for handling large genomic datasets efficiently. This model typically works in two stages:
 
